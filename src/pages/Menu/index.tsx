@@ -1,15 +1,15 @@
-import styles from "./Menu.module.scss";
+import styles from './Menu.module.scss';
 
-import { Search } from "./Search";
-import { useState } from "react";
-import { Filters } from "./Filters";
-import { Order } from "./Order";
-import { Items } from "./Items";
+import { Search } from './Search';
+import { useState } from 'react';
+import { Filters } from './Filters';
+import { Order } from './Order';
+import { Items } from './Items';
 
 export function Menu() {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   const [filter, setFilter] = useState<number | null>(null);
-  const [order, setOrder] = useState("");
+  const [order, setOrder] = useState('');
 
   return (
     <main>

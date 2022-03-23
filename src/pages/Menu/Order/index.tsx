@@ -1,8 +1,8 @@
-import styles from "./Order.module.scss";
-import options from "./options.json";
-import { useState } from "react";
-import classNames from "classnames";
-import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
+import styles from './Order.module.scss';
+import options from './options.json';
+import { useState } from 'react';
+import classNames from 'classnames';
+import { MdKeyboardArrowUp, MdKeyboardArrowDown } from 'react-icons/md';
 
 interface OrderProps {
   order: string;
@@ -17,14 +17,14 @@ export function Order({ order, setOrder }: OrderProps) {
     <button
       className={classNames({
         [styles.ordenador]: true,
-        [styles["ordenador--ativo"]]: order !== "",
+        [styles['ordenador--ativo']]: order !== '',
       })}
       onClick={() => {
         setOpen(!open);
       }}
       onBlur={() => setOpen(false)}
     >
-      <span>{nameOrder || "Ordenar por"}</span>
+      <span>{nameOrder || 'Ordenar por'}</span>
       {open ? (
         <MdKeyboardArrowUp size={20} />
       ) : (
@@ -33,7 +33,7 @@ export function Order({ order, setOrder }: OrderProps) {
       <div
         className={classNames({
           [styles.ordenador__options]: true,
-          [styles["ordenador__options--ativo"]]: open,
+          [styles['ordenador__options--ativo']]: open,
         })}
       >
         {options.map((option) => (

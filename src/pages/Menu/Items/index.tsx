@@ -1,8 +1,8 @@
-import cardapio from "./items.json";
-import styles from "./Items.module.scss";
+import cardapio from './items.json';
+import styles from './Items.module.scss';
 
-import { Item } from "./Item";
-import { useEffect, useState } from "react";
+import { Item } from './Item';
+import { useEffect, useState } from 'react';
 
 interface ItemsProps {
   filter: number | null;
@@ -16,7 +16,7 @@ export function Items(props: ItemsProps) {
   const [list, setList] = useState(cardapio);
 
   function testSearch(title: string) {
-    const regex = new RegExp(search, "i");
+    const regex = new RegExp(search, 'i');
     return regex.test(title);
   }
 
@@ -27,14 +27,14 @@ export function Items(props: ItemsProps) {
 
   function orderList(newList: typeof cardapio) {
     switch (order) {
-      case "porcao":
-        return newList.sort((a, b) => (a.size > b.size ? 1 : -1));
-      case "qtdpessoas":
-        return newList.sort((a, b) => (a.serving > b.serving ? 1 : -1));
-      case "preco":
-        return newList.sort((a, b) => (a.price > b.price ? 1 : -1));
-      default:
-        return newList;
+    case 'porcao':
+      return newList.sort((a, b) => (a.size > b.size ? 1 : -1));
+    case 'qtdpessoas':
+      return newList.sort((a, b) => (a.serving > b.serving ? 1 : -1));
+    case 'preco':
+      return newList.sort((a, b) => (a.price > b.price ? 1 : -1));
+    default:
+      return newList;
     }
   }
 

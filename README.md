@@ -26,7 +26,7 @@
 
 ## 💻 Projeto
 
-Projeto para controle de estudos diarios.
+Site para pizzaria.
 
 Dependências usadas no projeto:
 

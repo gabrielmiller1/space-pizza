@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src=".github\images\banner-space-pizza.png" width="100%" />
+  <img src="github\images\banner-space-pizza.png" width="100%" />
 </p>
 
 ## 💻 Projeto

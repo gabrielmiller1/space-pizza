@@ -29,7 +29,14 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -44,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.3.0",
     "sass": "^1.49.9",
     "typescript-plugin-css-modules": "^3.4.0"
   }

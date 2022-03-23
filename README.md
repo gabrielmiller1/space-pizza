@@ -1,6 +1,6 @@
 <h2 align="center">
   Space Pizza
-</h2> -->
+</h2>
 
 > Status: Done.
 
@@ -21,12 +21,12 @@
 </p>
 
 <p align="center">
-  <img src=".github\images\banner-space-pizza.png" width="100%" />
+  <img src="github\images\banner-space-pizza.png" width="100%" />
 </p>
 
 ## 💻 Projeto
 
-Projeto para controle de estudos diarios.
+Site para pizzaria.
 
 Dependências usadas no projeto:
 

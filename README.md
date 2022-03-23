@@ -1,6 +1,6 @@
 <h2 align="center">
   Space Pizza
-</h2> -->
+</h2>
 
 > Status: Done.
 

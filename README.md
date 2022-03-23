@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src=".github\images\banner-space-pizza.png.png" width="100%" />
+  <img src=".github\images\banner-space-pizza.png" width="100%" />
 </p>
 
 ## 💻 Projeto
@@ -39,7 +39,7 @@ Dependências usadas no projeto:
 
 ### Projeto disponivel em:
 
-<a href="https://.netlify.app" target="_blank">Estudies List</a>
+<a href="https://space-pizza.netlify.app/" target="_blank">Space Pizza</a>
 ## 📥 Instalação e execução
 
 Faça um clone desse repositório e acesse o diretório.

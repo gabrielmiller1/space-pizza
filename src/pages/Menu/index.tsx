@@ -1,6 +1,5 @@
 import styles from "./Menu.module.scss";
 
-import { ReactComponent as Logo } from "assets/logo.svg";
 import { Search } from "./Search";
 import { useState } from "react";
 import { Filters } from "./Filters";
